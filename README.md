@@ -1,2 +1,4 @@
 # mini-llm
-本项目基于Stanford CS336课程精神，是为理解大语言模型核心原理而构建的极简实现项目。参考Decoder-only的QWEN-3 Dense架构，从零实现Decoder-only的Transformer架构。包括RMS层归一化、GQA分组查询注意力与SwiGLU门控前馈网络。
+miniLLM是学习深度学习后,为理解大语言模型核心原理而构建的基于中文语料训练的小模型。
+对Model Scope的开源数据进行了去重与清洗
+模型架构参考了LLama系列架构，实现了仅解码器的Transformer架构。包括RMS层归一化替代LN、GQA分组查询注意力,带SwiGLU激活函数的前馈网络
